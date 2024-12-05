@@ -1,18 +1,14 @@
-# sv
+# SlackLille Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
+## Installation
 
-If you're seeing this, you've probably already done this step. Congrats!
+The website is built using Sveltekit: https://svelte.dev/docs/kit/introduction
 
-```bash
-# create a new project in the current directory
-npx sv create
+Even if the website is a static website, you'll need NodeJS installed on your machine to build it.
 
-# create a new project in my-app
-npx sv create my-app
-```
+- checkout the repo
+- `npm install`
 
 ## Developing
 
