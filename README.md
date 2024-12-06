@@ -5,7 +5,7 @@
 
 The website is built using Sveltekit: https://svelte.dev/docs/kit/introduction
 
-Even if the website is a static website, you'll need NodeJS installed on your machine to build it.
+Even if the resulting website is a static website, you'll need NodeJS installed on your machine to build it.
 
 - checkout the repo
 - `npm install`
@@ -23,12 +23,16 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+To create a production version of the website:
 
 ```bash
 npm run build
 ```
+The final files will be generated in the `build/` folder.
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Once you are satisfied with the result, upload the content of the `build/` folder to your hosting provider.
+
+
+

@@ -1,24 +1,48 @@
 # SlackLille, l'association de slackline/highline deu ch'nord
 
-Nous somme une association de promotion et de pratique de la slackline et highline, basée à Lille et pratiquant principalement dans les Hauts-de-France.
+L'association SlackLille est née en 2012 et rassemble les pratiquants de [Slackline](https://fr.wikipedia.org/wiki/Slackline) de la région Lilloise. 
 
-Issue d'un regroupement de passionnés, nous organisons 
+Association sportive de loisir, nous pratiquons toutes les formes de slackline et accueillons tous les pratiquants indépendamment de leur niveau. Chaque année nous organisons un festival.
+
+Issue d'un regroupement de passionnés, nous organisons:
 - des sorties pour nos membres (venez nous rejoindre!) 
 - diverses actions de sensibilisation et de découverte, en partenariat avec les acteurs locaux (association, mairies, ...)
 
 ## Pourquoi adhérer à SlackLille ?
 
-- Apprendre et se perfectionner aux contact des autres membres 
+- Apprendre et se perfectionner au contact des autres membres 
 - Profiter des sorties organisées par l'association et du matériel mis en commun
 - être couvert par notre assurance lors des sorties et évènements
 
 
-Adhérez dès maintenant! ➡️ Lien HelloAsso
+Adhérez dès maintenant! ➡️ https://www.helloasso.com/associations/slacklille
 
-## Slacklille sur les resaaux:
+## Fortress Freestyle Festival
 
-- Facebook:
+Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "Fortress Freestyle Festival" en collaboration avec la municipalité de la ville de Le Quesnoy.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nk5jtqpyA8c?si=9AK-jIg6rZsw0OuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Slacklille sur les resaux:
+
+- Facebook: https://www.facebook.com/groups/slacklille
 - Instagram:
+
+## Partenaires et associations liées
+
+(penser mettre logos)
+
+Ville de Le Quesnoy
+
+Ville de Lille / Lille 3000
+
+ParisSlack
+
+BDBounce
+
+Les sanglés de l'Ouest
+
+etc.
 
 ## Contact
 
