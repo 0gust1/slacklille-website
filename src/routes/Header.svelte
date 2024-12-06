@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import slacklille_logo from '$lib/assets/Logo_SlackLille.svg';
 </script>
 
@@ -10,8 +11,8 @@
 	</div>
 	<nav>
 		<ul class="flex gap-2">
-			<li><a href="/">Accueil</a></li>
-			<li><a href="/ressources">Ressources</a></li>
+			<li><a href="{base}/">Accueil</a></li>
+			<li><a href="{base}/ressources">Ressources</a></li>
 		</ul>
 	</nav>
 </header>
