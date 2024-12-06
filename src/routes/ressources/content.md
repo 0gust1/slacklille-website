@@ -1,6 +1,7 @@
 # Ressources
 
 <script>
+import {base} from '$app/paths';
 import slackmapScreenshot from '$lib/assets/slackmap_screenshot.jpg';
 </script>
 
@@ -24,7 +25,7 @@ Prenez soin de respecter [les consignes officielles](https://parcdelacitadelle.l
 
 Découvrez les spots sur https://www.slackmap.com (et ajoutez-y les votres) :
 <a href="https://www.slackmap.com/?map=3.05323%2C50.57058%2C8.21081" title="les spots de slackline du Nord/Pas-de-Calais sur slackmap.com" target="_blank">
-<img src="{slackmapScreenshot}" alt="capture d'écran de la carte des spots de slackline du Nord, sur slackmap.com"/>
+<img src="{base}{slackmapScreenshot}" alt="capture d'écran de la carte des spots de slackline du Nord, sur slackmap.com"/>
 </a>
 
 ## Fédérations et associations
