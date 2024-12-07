@@ -2,6 +2,6 @@
 import Content from "./content.md"
 </script>
 
-<article class="prose content">
+<article class="content">
 	<Content/>
 </article>
