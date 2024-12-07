@@ -18,5 +18,5 @@ a[href^="/"] {
 /* Content styles */
 
 .content {
-	@apply prose prose-sm sm:max-w-none md:max-w-none md:prose-base lg:prose-base;
+	@apply prose prose-stone prose-sm max-w-none md:prose-base lg:prose-base sm:max-w-none md:max-w-none;
 }

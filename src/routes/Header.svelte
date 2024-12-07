@@ -20,7 +20,7 @@
 <style lang="postcss">
 	header {
 		@apply bg-gradient-to-r from-gray-100 to-gray-500;
-		@apply mb-4 flex items-end px-0 py-0;
+		@apply mb-8 flex items-end px-0 py-0;
 		h1 {
 			@apply text-4xl;
 		}

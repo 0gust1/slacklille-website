@@ -1,4 +1,6 @@
-# SlackLille, l'association de slackline/highline deu ch'nord
+<p class="lead"> 
+    SlackLille, &laquo;&nbsp;l'association de slackline/highline deu ch'nord&nbsp;&raquo;
+</p>
 
 L'association SlackLille est née en 2012 et rassemble les pratiquants de [Slackline](https://fr.wikipedia.org/wiki/Slackline) de la région Lilloise. 
 
@@ -10,27 +12,29 @@ Issue d'un regroupement de passionnés, nous organisons:
 
 ## Pourquoi adhérer à SlackLille ?
 
-- Apprendre et se perfectionner au contact des autres membres 
-- Profiter des sorties organisées par l'association et du matériel mis en commun
-- être couvert par notre assurance lors des sorties et évènements
+- **Apprendre et se perfectionner** au contact des autres membres 
+- **Profiter des sorties organisées par l'association** et du matériel mis en commun
+- **Être couvert par notre assurance** lors des sorties et évènements
 
 
-Adhérez dès maintenant! ➡️ https://www.helloasso.com/associations/slacklille
+**Adhérez dès maintenant!**  
+➡️ https://www.helloasso.com/associations/slacklille
 
 ## Fortress Freestyle Festival
 
 Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "Fortress Freestyle Festival" en collaboration avec la municipalité de la ville de Le Quesnoy.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nk5jtqpyA8c?si=9AK-jIg6rZsw0OuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="w-full" height="360" src="https://www.youtube.com/embed/Nk5jtqpyA8c?si=9AK-jIg6rZsw0OuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Slacklille sur les resaux:
+⭕ TODO : finir. faire un bandeau dans le header, avec liens+logos des réseaux 
 
 - Facebook: https://www.facebook.com/groups/slacklille
-- Instagram:
+- Instagram: 
 
 ## Partenaires et associations liées
 
-(penser mettre logos)
+ ⭕ TODO (penser mettre les logos + les liens quand on peut)
 
 Ville de Le Quesnoy
 
@@ -39,6 +43,8 @@ Ville de Lille / Lille 3000
 ParisSlack
 
 BDBounce
+
+BeSlack
 
 Les sanglés de l'Ouest
 

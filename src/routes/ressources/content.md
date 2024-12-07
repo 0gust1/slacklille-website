@@ -7,9 +7,13 @@ import slackmapScreenshot from '$lib/assets/slackmap_screenshot.jpg';
 
 ## Débuter en slackline
 
+⭕ TODO
+
 Liens / embed vers chaines et videos YT dédiés
 
 ## Débuter en highline
+
+⭕ TODO
 
 Liens / embed vers chaines et vidéos YT de highline
 
@@ -29,6 +33,8 @@ Découvrez les spots sur https://www.slackmap.com (et ajoutez-y les votres) :
 </a>
 
 ## Fédérations et associations
+
+⭕ TODO
 
 Lien vers le site l'ISA et quelques sous-pages intéressantes:
 
