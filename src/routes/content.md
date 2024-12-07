@@ -34,19 +34,28 @@ Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "F
 
 ## Partenaires et associations liées
 
- ⭕ TODO (penser mettre les logos + les liens quand on peut)
+ ⭕ TODO (penser mettre les logos)
 
-Ville de Le Quesnoy
+Ville de Le Quesnoy:  
+http://www.lequesnoy.fr/
 
-Ville de Lille / Lille 3000
+Ville de Lille:   
+https://www.lille.fr/
 
-ParisSlack
+Lille 3000:  
+https://lille3000.com/
 
-BDBounce
+ParisSlack:  
+https://parislack.fr/
 
-BeSlack
+BDBounce:  
+https://www.facebook.com/SlackBDBounce
 
-Les sanglés de l'Ouest
+BeSlack:  
+https://beslack.be/fr
+
+Les sanglés de l'Ouest:  
+https://www.facebook.com/LSDO.officiel/
 
 etc.
 
