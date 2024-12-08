@@ -1,3 +1,15 @@
+<script>
+import logoLeQuesnoy from '$lib/assets/le_quesnoy_logo.jpg';
+import logoLille from '$lib/assets/logo_lille.svg';
+import logoLille3000 from '$lib/assets/logo_lille3000.svg';
+import logoParisSlack from '$lib/assets/logo_parislack.png';
+import logoBDBounce from '$lib/assets/logo_bdbounce.jpg';
+import logoBeSlack from '$lib/assets/logo_beslack.png';
+import logoLSDO from '$lib/assets/logo_lsdo.png';
+
+import Logos from "./Logos.svelte";
+</script>
+
 <p class="lead"> 
     SlackLille, &laquo;&nbsp;l'association de slackline/highline deu ch'nord&nbsp;&raquo;
 </p>
@@ -34,30 +46,7 @@ Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "F
 
 ## Partenaires et associations liées
 
- ⭕ TODO (penser mettre les logos)
-
-Ville de Le Quesnoy:  
-http://www.lequesnoy.fr/
-
-Ville de Lille:   
-https://www.lille.fr/
-
-Lille 3000:  
-https://lille3000.com/
-
-ParisSlack:  
-https://parislack.fr/
-
-BDBounce:  
-https://www.facebook.com/SlackBDBounce
-
-BeSlack:  
-https://beslack.be/fr
-
-Les sanglés de l'Ouest:  
-https://www.facebook.com/LSDO.officiel/
-
-etc.
+<Logos/>
 
 ## Contact
 
