@@ -5,7 +5,7 @@
 
 <header>
 	<div class="flex">
-		<img src={base}{slacklille_logo} alt="logo SlackLille" class="-mb-1 ml-4 mt-4 w-40" />
+		<img src={slacklille_logo} alt="logo SlackLille" class="-mb-1 ml-4 mt-4 w-40" />
 		<h1 class="hidden text-2xl font-thin">SlackLille</h1>
 		<p class="motto hidden">L'association de slackline/highline du nord de la France</p>
 	</div>
