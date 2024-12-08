@@ -10,7 +10,9 @@ export default defineConfig({
 			outdir: './src/lib/paraglide'
 		})
 	],
-
+	build: {
+		assetsInlineLimit: 2000
+	},
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	}
