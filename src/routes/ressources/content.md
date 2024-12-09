@@ -6,15 +6,22 @@ import slackmapScreenshot from '$lib/assets/slackmap_screenshot.jpg';
 
 ## Débuter en slackline
 
-⭕ TODO
+<iframe
+	width="560"
+	height="315"
+	src="https://www.youtube-nocookie.com/embed/?videoseries&amp;list=PLewfhLQ4zUOHqbI0tTMs1In39GVmGpO_b&amp;index=3"
+	title="YouTube video player"
+	frameborder="0"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	referrerpolicy="strict-origin-when-cross-origin"
+	allowfullscreen
+></iframe>
 
-Liens / embed vers chaines et videos YT dédiés
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=yZ4L7CtziUZH3B4y&amp;list=PL2ae3RzWQ3UE-W5TYFbhC0lthWt6Gh4nz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Débuter en highline
 
-⭕ TODO
-
-Liens / embed vers chaines et vidéos YT de highline
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=MPL6Zs-ZkftsiipK&amp;list=PL2ae3RzWQ3UFcS7kz03XK3J6MJAJprMDy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Où pratiquer
 

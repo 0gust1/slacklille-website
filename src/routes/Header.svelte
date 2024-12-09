@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { page } from '$app/stores';
 	import slacklille_logo from '$lib/assets/Logo_SlackLille.svg';
 </script>
 
@@ -11,8 +12,12 @@
 	</div>
 	<nav>
 		<ul class="flex gap-2">
-			<li><a href="{base}/">Accueil</a></li>
-			<li><a href="{base}/ressources">Ressources</a></li>
+			<li><a href="{base}/" class:active={$page.url.pathname === '/'}>Accueil</a></li>
+			<li>
+				<a href="{base}/ressources" class:active={$page.url.pathname === '/ressources'}
+					>Ressources</a
+				>
+			</li>
 		</ul>
 	</nav>
 </header>
@@ -32,6 +37,12 @@
 		@apply mt-1;
 		ul {
 			@apply flex gap-2;
+		}
+		a {
+			@apply px-2 py-0.5;
+		}
+		a.active {
+			@apply bg-white;
 		}
 	}
 </style>
