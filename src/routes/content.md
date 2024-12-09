@@ -38,11 +38,10 @@ Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "F
 
 <iframe class="w-full" height="360" src="https://www.youtube.com/embed/Nk5jtqpyA8c?si=9AK-jIg6rZsw0OuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Slacklille sur les resaux:
-⭕ TODO : finir. faire un bandeau dans le header, avec liens+logos des réseaux 
+## Slacklille sur les réseaux:
 
 - Facebook: https://www.facebook.com/groups/slacklille
-- Instagram: 
+- Instagram: https://www.instagram.com/slack_lille/  
 
 ## Partenaires et associations liées
 

@@ -2,6 +2,8 @@
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 	import slacklille_logo from '$lib/assets/Logo_SlackLille.svg';
+	import facebook_icon from '$lib/assets/facebook_icon.svg';
+	import instagram_icon from '$lib/assets/instagram_icon.svg';
 </script>
 
 <header>
@@ -11,12 +13,24 @@
 		<p class="motto hidden">L'association de slackline/highline du nord de la France</p>
 	</div>
 	<nav>
-		<ul class="flex gap-2">
+		<ul class="internal-nav flex flex-1 gap-2">
 			<li><a href="{base}/" class:active={$page.url.pathname === '/'}>Accueil</a></li>
 			<li>
 				<a href="{base}/ressources" class:active={$page.url.pathname === '/ressources'}
 					>Ressources</a
 				>
+			</li>
+		</ul>
+		<ul class="social-links">
+			<li>
+				<a href="https://www.facebook.com/groups/slacklille" target="_blank">
+					<img class="w-12" src={facebook_icon} alt="logo facebook" />
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/slack_lille/" target="_blank">
+					<img class="w-12" src={instagram_icon} alt="logo instagram" />
+				</a>
 			</li>
 		</ul>
 	</nav>
@@ -34,9 +48,15 @@
 		}
 	}
 	nav {
-		@apply mt-1;
+		@apply ml-2 mt-1 flex justify-start items-end w-full;
 		ul {
 			@apply flex gap-2;
+		}
+		.internal-nav {
+			@apply grow;
+		}
+		.social-links {
+			@apply ml-auto mr-4;
 		}
 		a {
 			@apply px-2 py-0.5;
