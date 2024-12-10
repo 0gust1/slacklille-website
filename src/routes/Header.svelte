@@ -14,9 +14,9 @@
 	</div>
 	<nav>
 		<ul class="internal-nav flex flex-1 gap-2">
-			<li><a href="{base}/" class:active={$page.url.pathname === '/'}>Accueil</a></li>
+			<li><a href="{base}/" class:active={$page.url.pathname === `${base}/`}>Accueil</a></li>
 			<li>
-				<a href="{base}/ressources" class:active={$page.url.pathname === '/ressources'}
+				<a href="{base}/ressources" class:active={$page.url.pathname === `${base}/ressources`}
 					>Ressources</a
 				>
 			</li>
