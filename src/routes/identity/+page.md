@@ -1,6 +1,6 @@
 <script lang="ts">
 import ChartColors from './ChartColors.svelte';
-import slackLilleLogo from '$lib/assets/Logo_Slacklille.svg';
+import slacklille_logo from '$lib/assets/Logo_SlackLille.svg';
 </script>
 
 # Slacklille Identity Elements
@@ -22,7 +22,7 @@ lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis und
 
 Black and white logo:
 
-<img class="w-96" src={slackLilleLogo} alt="Logo SlackLille B&W" />
+<img class="w-96" src={slacklille_logo} alt="Logo SlackLille B&W" />
 
 ## Colors
 
