@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { i18n } from '$lib/i18n';
+	import '@typehaus/metropolis';
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import Header from './Header.svelte';
 	import '../app.css';

@@ -13,10 +13,19 @@ a[href^="/"] {
 	}
 }
 
-
+html{
+	@apply antialiased;
+	@apply font-metropolis font-medium;
+}
 
 /* Content styles */
 
 .content {
-	@apply prose prose-sm prose-stone  max-w-none md:prose-base lg:prose-base sm:max-w-none md:max-w-none prose-headings:font-medium;
+	@apply prose prose-sm prose-stone  max-w-none md:prose-base lg:prose-base sm:max-w-none md:max-w-none prose-headings:font-medium prose-h1:font-impact prose-h1:uppercase prose-h2:font-metropolis prose-h3:font-metropolis prose-h4:font-metropolis prose-h5:font-metropolis prose-h6:font-metropolis prose-p:font-metropolis;
+}
+.content h1:has(+ h2){
+	@apply mb-1;
+}
+.content h1+h2{
+	@apply mt-0 border-b-2 border-slackpink-200;
 }

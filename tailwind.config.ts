@@ -5,7 +5,7 @@ import type { Config } from 'tailwindcss';
 import defaultColors from 'tailwindcss/colors'
 import defaultTheme from 'tailwindcss/defaultTheme'
 const fontSizes = defaultTheme.fontSize;
-
+const fontFamilies = defaultTheme.fontFamily;
 delete defaultColors['lightBlue'];
 delete defaultColors['warmGray'];
 delete defaultColors['trueGray'];
@@ -16,6 +16,11 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts,md}'],
 
 	theme: {
+			fontFamily: {
+				...fontFamilies,
+				"metropolis": ["Metropolis", "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", 'Open Sans', 'Helvetica Neue', "sans-serif"],
+				"impact": ["Impact", "sans-serif"],
+			},
 			fontSize: {
 				...fontSizes,
 				"2xs": ".625rem",
@@ -36,7 +41,7 @@ export default {
 					900: "#2D4986",
 					950: "#1D3058"
 				},
-				"slackpurple": {
+				"slackviolet": {
 					50: "#F4F2FC",
 					100: "#EDEAFB",
 					200: "#D8D0F5",
@@ -49,7 +54,7 @@ export default {
 					900: "#301A7F",
 					950: "#1B0F48"
 				},
-				"slackpurplealt": {
+				"slackvioletalt": {
 					50: "#F1EEFC",
 					100: "#E3DDF8",
 					200: "#C3B7F0",
@@ -62,7 +67,7 @@ export default {
 					900: "#130A33",
 					950: "#0A0519"
 				},
-				"slackpurplealtt": {
+				"slackvioletaltt": {
 					50: "#F5F3FC",
 					100: "#EEEBFA",
 					200: "#DAD2F4",
