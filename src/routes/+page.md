@@ -1,3 +1,9 @@
+---
+title: SlackLille - Association de slackline et highline de Lille et des Hauts-de-France
+description: SlackLille, l'association de slackline et highline de Lille et des Hauts-de-France, organise des sorties, des évènements et des actions de sensibilisation, ainsi que le festival FCube. Adhérez dès maintenant!. Vous trouverez aussi sur ce site des ressource pour débuter la pratique de la Slackline et de la Highline. Enfin,vous pouvez nous retrouver sur Facebook et Instagram.
+author: SlackLille
+---
+
 <script>
 import logoFCube from '$lib/assets/logo_fcube.png';
 
@@ -26,13 +32,13 @@ Issue d'un regroupement de passionnés, nous organisons:
 **Adhérez dès maintenant!**  
 ➡️ https://www.helloasso.com/associations/slacklille
 
-## Fortress Freestyle Festival
+## Fortress Freestyle Festival (F<sup>3</sup>)
 
-<img class="float-left w-1/4 mr-4 border p-2" src="{logoFCube}"/>
+<img class="md:float-left md:w-1/4 md:mr-4 border p-2" src="{logoFCube}"/>
 
 Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "Fortress Freestyle Festival" en collaboration avec la municipalité de la ville de Le Quesnoy.
 
-Retrouvez toutes les informations [sur la page dédiée](festival/).
+[Retrouvez toutes les informations sur la page dédiée](festival/).
 
 <hr class=" clear-both"/>
 

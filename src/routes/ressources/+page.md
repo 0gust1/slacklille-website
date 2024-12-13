@@ -1,3 +1,9 @@
+---
+title: Slacklille - Ressources autour de la slackline et la highline
+description: Ressources pour débuter la slackline et la highline, où pratiquer, etc.
+author: SlackLille
+---
+
 # Ressources
 
 <script>

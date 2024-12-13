@@ -1,3 +1,8 @@
+---
+title: SlackLille identity elements
+description: Identity elements of the SlackLille association
+author: SlackLille
+---
 <script lang="ts">
 import ChartColors from './ChartColors.svelte';
 import slacklille_logo from '$lib/assets/Logo_SlackLille.svg';
