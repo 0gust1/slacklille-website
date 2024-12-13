@@ -17,7 +17,7 @@
 			<li><a href="{base}/" class:active={$page.url.pathname === `${base}/`}>Accueil</a></li>
 			<li>
 				<a href="{base}/festival" class:active={$page.url.pathname === `${base}/festival`}
-					>Festival F<sup>3</sup></a
+					>Festival&nbsp;F<sup>3</sup></a
 				>
 			</li>
 			<li>
