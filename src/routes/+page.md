@@ -1,11 +1,5 @@
 <script>
-import logoLeQuesnoy from '$lib/assets/le_quesnoy_logo.jpg';
-import logoLille from '$lib/assets/logo_lille.svg';
-import logoLille3000 from '$lib/assets/logo_lille3000.svg';
-import logoParisSlack from '$lib/assets/logo_parislack.png';
-import logoBDBounce from '$lib/assets/logo_bdbounce.jpg';
-import logoBeSlack from '$lib/assets/logo_beslack.png';
-import logoLSDO from '$lib/assets/logo_lsdo.png';
+import logoFCube from '$lib/assets/logo_fcube.png';
 
 import Logos from "./Logos.svelte";
 </script>
@@ -34,9 +28,13 @@ Issue d'un regroupement de passionnés, nous organisons:
 
 ## Fortress Freestyle Festival
 
+<img class="float-left w-1/4 mr-4 border p-2" src="{logoFCube}"/>
+
 Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "Fortress Freestyle Festival" en collaboration avec la municipalité de la ville de Le Quesnoy.
 
 Retrouvez toutes les informations [sur la page dédiée](festival/).
+
+<hr class=" clear-both"/>
 
 ## Slacklille sur les réseaux sociaux
 
