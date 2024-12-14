@@ -15,7 +15,7 @@ author: SlackLille
 
 <div class="lead">
 <p>Le festival FCube est un évènement de slackline et de highline qui a lieu tous les ans, <strong>début août</strong>, dans le centre historique de la ville de <strong>Le Quesnoy</strong>, lors de <a href="https://bimberlot.fr/">la fête du géant Bimberlot</a>.</p>
-<p>L'évènement est organisé par un collectif d'associations, en collaboration avec <a href="https://www.lequesnoy.fr/">la municipalité de la ville</a>.
+<p>L'évènement est organisé par un collectif d'associations, en collaboration et avec le soutien de <a href="https://www.lequesnoy.fr/">la municipalité de la ville</a>.
 </p>
 </div>
 
