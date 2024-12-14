@@ -10,8 +10,10 @@ import logoFCube from '$lib/assets/logo_fcube.png';
 import Logos from "./Logos.svelte";
 </script>
 
-<div class="lead"> 
-SlackLille, &laquo;&nbsp;l'association de slackline/highline deu ch'nord&nbsp;&raquo;
+<div class="lead bg-slackblue-500/30 px-4 md:px-8 pt-1 pb-2 rounded-lg">
+<p class="text-4xl font-light"> 
+SlackLille, l'association de slackline/highline &laquo;&nbsp;deu ch'nord&nbsp;&raquo;
+</p>
 
 L'association SlackLille est née en 2012 et rassemble les pratiquants de [Slackline](https://fr.wikipedia.org/wiki/Slackline) de la région Lilloise et des Hauts-de-France. 
 
@@ -25,7 +27,10 @@ Issue d'un regroupement de passionnés, nous organisons:
 
 </div>
 
-## Pourquoi adhérer à SlackLille ?
+<div class="flex flex-col md:flex-row gap-4">
+<div class="w-full md:w-1/2">
+
+## Pourquoi adhérer à SlackLille&nbsp;?
 
 - **Apprendre et se perfectionner** au contact des autres membres 
 - **Profiter des sorties organisées par l'association** et du matériel mis en commun
@@ -34,6 +39,8 @@ Issue d'un regroupement de passionnés, nous organisons:
 
 **Adhérez dès maintenant!**  
 ➡️ https://www.helloasso.com/associations/slacklille
+</div>
+<div class="w-full md:w-1/2">
 
 ## Fortress Freestyle Festival (F<sup>3</sup>)
 
@@ -42,6 +49,8 @@ Issue d'un regroupement de passionnés, nous organisons:
 Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "Fortress Freestyle Festival" en collaboration avec la municipalité de la ville de Le Quesnoy.
 
 [Retrouvez toutes les informations sur la page dédiée](festival/).
+</div>
+</div>
 
 <hr class="clear-both mt-2"/>
 
