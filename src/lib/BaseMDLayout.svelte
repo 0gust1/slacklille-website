@@ -13,3 +13,9 @@
 <article class="content">
   {@render children()}
 </article>
+
+<style lang="postcss">
+  .content {
+    /* @apply bg-slackpink-500/50; */
+  }
+</style>

@@ -4,23 +4,43 @@
 
 
 /* global styles */
-a[href^="http"],
+/* a[href^="http"],
 a[href^="/"] {
 	@apply text-blue-500;
 
 	&:hover {
 		@apply text-blue-700;
 	}
-}
+} */
 
 html{
-	@apply antialiased;
-	@apply font-metropolis font-medium;
+	@apply font-metropolis;
+}
+
+html, body{
+	@apply min-h-full;
+}
+
+.global-container{
+	@apply min-h-full;
+	main > *{
+		@apply mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8;
+	}
 }
 
 /* Content styles */
 
+.content{
+	@apply prose;
+}
+
 .content {
+	h1 {@apply font-impact font-normal text-6xl uppercase;}
+	h2 {@apply font-metropolis font-light text-3xl;}
+	h3 {@apply font-metropolis font-medium;}
+}
+
+/* .content {
 	@apply prose prose-sm prose-stone  max-w-none md:prose-base lg:prose-base sm:max-w-none md:max-w-none prose-headings:font-medium prose-h1:font-impact prose-h1:uppercase prose-h2:font-metropolis prose-h3:font-metropolis prose-h4:font-metropolis prose-h5:font-metropolis prose-h6:font-metropolis prose-p:font-metropolis;
 }
 .content h1:has(+ h2){
@@ -28,4 +48,4 @@ html{
 }
 .content h1+h2{
 	@apply mt-0 border-b-2 border-slackpink-200;
-}
+} */

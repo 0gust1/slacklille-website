@@ -31,14 +31,15 @@
 
 <style lang="postcss">
 	.global-container {
-		@apply p-0;
+		/* @apply p-0; */
 	}
 	main {
-		@apply mx-auto min-h-screen w-full px-6 sm:px-4 sm:w-3/4;
+		/* @apply py-10 bg-slackgreen-200; */
 	}
+
 
 	footer {
 		@apply bg-gray-200 text-xs;
-		@apply mt-4 px-4 py-2;
+		@apply px-4 py-2;
 	}
 </style>
