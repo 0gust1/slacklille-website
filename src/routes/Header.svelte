@@ -8,7 +8,7 @@
 
 <header>
 	<div class="flex">
-		<a href="{base}/">
+		<a class=" min-w-24" href="{base}/">
 		<img src={slacklille_logo} alt="logo SlackLille" class="-mb-1 ml-4 mt-4 w-40" />
 		</a>
 		<h1 class="hidden text-2xl font-thin">SlackLille</h1>
@@ -31,14 +31,18 @@
 		<ul class="social-links">
 			<li>
 				<a href="https://www.facebook.com/groups/slacklille" target="_blank">
-					<img class="w-12" src={facebook_icon} alt="logo facebook" />
+					<img class="w-9" src={facebook_icon} alt="logo facebook" />
 				</a>
 			</li>
 			<li>
 				<a href="https://www.instagram.com/slack_lille/" target="_blank">
-					<img class="w-12" src={instagram_icon} alt="logo instagram" />
+					<img class="w-9" src={instagram_icon} alt="logo instagram" />
 				</a>
 			</li>
+			<li><a href="mailto:slacklille+contact@gmail.com" class="flex flex-col items-center">
+				<span class="text-xl h-6">✉️</span>
+				<span class="text-xs">Contact</span>
+			</a></li>
 		</ul>
 	</nav>
 </header>
@@ -63,7 +67,7 @@
 			@apply grow;
 		}
 		.social-links {
-			@apply ml-auto mr-4;
+			@apply flex gap-2 ml-auto mr-4 items-center;
 		}
 		a {
 			@apply px-2 py-0.5;
