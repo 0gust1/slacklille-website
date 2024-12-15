@@ -1,7 +1,8 @@
 <script lang="ts">
-  import { base } from '$app/paths';
-	import facebook_icon from '$lib/assets/facebook_icon.svg';
-	import instagram_icon from '$lib/assets/instagram_icon.svg';
+	import { base } from '$app/paths';
+	import FacebookIcon from '$lib/components/FacebookIcon.svelte';
+	import InstagramIcon from '$lib/components/InstagramIcon.svelte';
+	import EmailIcon from '$lib/components/EmailIcon.svelte';
 </script>
 
 <footer>
@@ -10,15 +11,20 @@
 			<ul>
 				<li><a href="{base}/festival">▶ Festival F<sup>3</sup></a></li>
 				<li><a href="{base}/ressources">▶ Ressources</a></li>
-				<li><a href="mailto:slacklille+contact@gmail.com">✉️ Contact</a></li>
+				<li>
+					<a href="mailto:slacklille+contact@gmail.com">
+						<EmailIcon class="inline-block size-8" />
+						<span class="">Contact</span>
+					</a>
+				</li>
 			</ul>
 		</nav>
 		<div class="social-links">
 			<a href="https://www.facebook.com/groups/slacklille" target="_blank">
-				<img class="w-12" src={facebook_icon} alt="logo facebook" />
+				<FacebookIcon />
 			</a>
 			<a href="https://www.instagram.com/slack_lille" target="_blank">
-				<img class="w-12" src={instagram_icon} alt="logo instagram" />
+				<InstagramIcon />
 			</a>
 		</div>
 	</div>
