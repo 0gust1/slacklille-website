@@ -64,7 +64,6 @@ import isaLogo from '$lib/assets/ISA-Logo-Long-300x52.png';
 	</div>
 </div>
 
-
 ## Fédérations et associations
 
 <a href="https://www.slacklineinternational.org/">

@@ -37,7 +37,7 @@
 			<div class="grow-0">
 				<a href="mailto:slacklille+contact@gmail.com">
 					<span class="text-sm font-semibold">Contact</span>
-					<EmailIcon class="mt-4 size-8 text-gray-600" />
+					<EmailIcon class="mt-4 size-8" />
 				</a>
 			</div>
 		</div>
@@ -63,5 +63,13 @@
 <style lang="postcss">
 	footer {
 		@apply bg-slackblue-100;
+
+		a[href^='http'],
+		a[href^='mailto'], 
+		a[href^='/'] {
+			&:hover {
+				@apply text-slackpink-600;
+			}
+		}
 	}
 </style>

@@ -1,5 +1,5 @@
 ---
-title: Fortress Freestyle festival (Fcube)
+title: SlackLille - Fortress Freestyle festival (Fcube)
 description: Le festival FCube est un évènement de slackline et de highline qui a lieu tous les ans, début août, dans le centre historique de la ville de Le Quesnoy, lors de la fête du géant Bimberlot.
 author: SlackLille
 ---
@@ -25,10 +25,15 @@ author: SlackLille
 
 **... Stay tuned!** 😉
 
-## Édition 2024
+## Éditions précédentes
+
+(❤️ & 🙏 à [Jonas Konijnenberg](https://www.youtube.com/@JonasKonijnenberg) pour les vidéos !)
+
+### Édition 2024
 
 <YouTube  youTubeId="Nk5jtqpyA8c"/>
 
 ## Édition 2023
 
 <YouTube  youTubeId="Eom7nIciYLM"/>
+

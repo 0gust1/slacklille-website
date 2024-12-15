@@ -19,7 +19,7 @@ L'association SlackLille est née en 2012 et rassemble les pratiquants de [Slack
 
 Association sportive de loisir, nous pratiquons toutes les formes de slackline et accueillons tous les pratiquants indépendamment de leur niveau. Chaque année [nous organisons un festival](festival/).
 
-Issue d'un regroupement de passionnés, nous organisons:
+Issue d'un regroupement de passionnés, nous organisons&nbsp;:
 
 - **Des sorties pour nos membres** (venez nous rejoindre !)
 - Diverses **actions de sensibilisation et de découverte**, en partenariat avec les acteurs locaux (associations, mairies, ...)

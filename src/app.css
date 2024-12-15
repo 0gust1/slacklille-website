@@ -32,14 +32,14 @@ body {
 
 .content {
 	@apply prose prose-slate prose-sm md:prose-base;
-	a[href^='http'],
+	/* a[href^='http'],
 	a[href^='/'] {
 		@apply text-blue-500;
 
 		&:hover {
 			@apply text-blue-700;
 		}
-	}
+	} */
 }
 
 .content {

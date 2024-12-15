@@ -185,10 +185,17 @@
 	header {
 		@apply bg-gradient-to-r from-gray-100 to-gray-500 shadow-sm;
 		.active {
-			@apply text-slackblue-800;
+			@apply text-slackblue-600;
 		}
 		.social-links {
 			@apply flex items-end gap-4;
+		}
+		a[href^='http'],
+		a[href^='mailto'], 
+		a[href^='/'] {
+			&:hover {
+				@apply text-slackpink-600;
+			}
 		}
 	}
 </style>
