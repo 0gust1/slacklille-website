@@ -10,8 +10,8 @@ import logoFCube from '$lib/assets/logo_fcube.png';
 import Logos from "./Logos.svelte";
 </script>
 
-<div class="lead bg-slackblue-500/30 px-4 md:px-8 pt-1 pb-2 rounded-lg">
-<p class="text-4xl font-light"> 
+<div class="lead bg-gradient-to-br from-slackblue-500/10 to-slackviolet-500/30 px-4 md:px-8 pt-1 pb-2 rounded-md">
+<p class="text-2xl md:text-3xl font-light text-slackblue-800"> 
 SlackLille, l'association de slackline/highline &laquo;&nbsp;deu ch'nord&nbsp;&raquo;
 </p>
 
@@ -21,9 +21,9 @@ Association sportive de loisir, nous pratiquons toutes les formes de slackline e
 
 Issue d'un regroupement de passionnés, nous organisons:
 
-- des sorties pour nos membres (venez nous rejoindre!) 
-- diverses actions de sensibilisation et de découverte, en partenariat avec les acteurs locaux (association, mairies, ...)
-- des évènements pour promouvoir la slackline et la highline dans la région
+- **Des sorties pour nos membres** (venez nous rejoindre !)
+- Diverses **actions de sensibilisation et de découverte**, en partenariat avec les acteurs locaux (associations, mairies, ...)
+- Des **évènements** pour promouvoir la slackline et la highline dans la région
 
 </div>
 

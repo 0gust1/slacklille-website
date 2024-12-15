@@ -184,7 +184,9 @@
 <style lang="postcss">
 	header {
 		@apply bg-gradient-to-r from-gray-100 to-gray-500 shadow-sm;
-
+		.active {
+			@apply text-slackblue-800;
+		}
 		.social-links {
 			@apply flex items-end gap-4;
 		}
