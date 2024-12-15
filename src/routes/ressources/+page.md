@@ -36,9 +36,9 @@ import isaLogo from '$lib/assets/ISA-Logo-Long-300x52.png';
 
 ## Où pratiquer
 
-<div class="flex flex-col w-full gap-2 md:gap-4 md:flex-row items-start justify-start">
+<div class="not-prose flex flex-col w-full gap-2 md:gap-4 md:flex-row items-start justify-around">
 	<div class="w-fit">
-		<h3>
+		<h3 class="text-xl mb-2">
 		À Lille
 		</h3>
 		<p>
@@ -52,7 +52,7 @@ import isaLogo from '$lib/assets/ISA-Logo-Long-300x52.png';
 		</p>
 	</div>
 	<div class="w-fit">
-		<h3>
+		<h3 class="not-prose text-xl mb-2">
 		Dans la région
 		</h3>
 		<p>
@@ -67,12 +67,14 @@ import isaLogo from '$lib/assets/ISA-Logo-Long-300x52.png';
 
 ## Fédérations et associations
 
-L'ISA (International Slackline Association) est la fédération internationale de slackline. Elle regroupe les associations nationales et les pratiquants individuels.
-
-Leur site: [https://www.slacklineinternational.org/](https://www.slacklineinternational.org/) contient de nombreuses ressources pour les pratiquants, en différentes langues.
-
 <a href="https://www.slacklineinternational.org/">
 <img src="{isaLogo}" alt="Logo de l'ISA"/> 
 </a>
 
-En France, l'AFS (Fédération Française de Slackline) est la fédération nationale. Elle est membre de l'ISA et regroupe les associations locales et les pratiquants individuels.
+L'ISA (International Slackline Association) est la fédération internationale de slackline. Elle regroupe les associations nationales et les pratiquants individuels.
+
+Leur site: [https://www.slacklineinternational.org/](https://www.slacklineinternational.org/) contient de nombreuses ressources pour les pratiquants, en différentes langues.
+
+### En France
+
+En France, l'AFS (Association Française de Slackline) est la fédération nationale. Elle est membre de l'ISA et regroupe les associations locales et les pratiquants individuels.
