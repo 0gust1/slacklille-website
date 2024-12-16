@@ -8,8 +8,9 @@
 	import logoLSDO from '$lib/assets/logo_lsdo.png';
 </script>
 
-<div class="not-prose">
-	<div class="logos instit">
+<div class="">
+	<h3>Institutionnels</h3>
+	<div class="not-prose logos instit">
 		<figure>
 			<a href="http://www.lequesnoy.fr/" target="_blank">
 				<img src={logoLeQuesnoy} class="w-96" alt="Logo de la ville de Le Quesnoy" />
@@ -30,8 +31,8 @@
 			<figcaption>Lille3000</figcaption>
 		</figure>
 	</div>
-
-	<div class="logos assos">
+	<h3>Associations</h3>
+	<div class="not-prose logos assos">
 		<figure>
 			<a href="https://parislack.fr" target="_blank">
 				<img src={logoParisSlack} class="w-64" alt="Logo de l'association Parislack" />
@@ -46,7 +47,7 @@
 		</figure>
 		<figure>
 			<a href="https://www.facebook.com/SlackBDBounce" target="_blank">
-				<img src={logoBDBounce} class="w-44" alt="Logo de l'association BDBounce" />
+				<img src={logoBDBounce} class="" alt="Logo de l'association BDBounce" />
 			</a>
 			<figcaption>BDBounce</figcaption>
 		</figure>
@@ -61,7 +62,8 @@
 
 <style lang="postcss">
 	.logos {
-		@apply mb-8 flex flex-wrap gap-4 leading-none;
+		/* @apply mb-8 flex flex-wrap gap-4 leading-none; */
+		@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
 	}
 	figure {
 		@apply flex flex-col items-center justify-center;

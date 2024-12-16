@@ -32,6 +32,8 @@
 </script>
 
 <h3>SlackLille colors</h3>
+<p>Colors derived from artistic direction</p>
+<p>Shades generated using <a href="https://www.tints.dev/?slackblue=849ED6&slackpurple=6E50DB&slackbeige=D6BC84&slackteal=84C7D6&slackgreen=BDDB50&slackpink=B450DB">https://www.tints.dev/</a></p>
 <ColorTable colors={slacklilleColors} />
 
 <h3>Default TailwindCSS colors</h3>

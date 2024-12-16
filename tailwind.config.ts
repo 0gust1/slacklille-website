@@ -37,6 +37,7 @@ export default {
 		},
 		colors: {
 			...defaultColors,
+			// generated from: https://www.tints.dev/?slackblue=849ED6&slackpurple=6E50DB&slackbeige=D6BC84&slackteal=84C7D6&slackgreen=BDDB50&slackpink=B450DB
 			slackblue: {
 				50: '#F4F6FB',
 				100: '#E8EDF7',
