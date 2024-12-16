@@ -4,9 +4,8 @@ description: SlackLille, l'association de slackline et highline de Lille et des 
 author: SlackLille
 ---
 
-<script>
+<script lang="ts">
 import logoFCube from '$lib/assets/logo_fcube.png';
-
 import Logos from "./Logos.svelte";
 </script>
 
@@ -15,7 +14,7 @@ import Logos from "./Logos.svelte";
 SlackLille, l'association de slackline/highline &laquo;&nbsp;deu ch'nord&nbsp;&raquo;
 </p>
 
-L'association SlackLille est née en 2012 et rassemble les pratiquants de [Slackline](https://fr.wikipedia.org/wiki/Slackline) de la région Lilloise et des Hauts-de-France. 
+L'association SlackLille est née en 2012 et rassemble les pratiquants de [Slackline](https://fr.wikipedia.org/wiki/Slackline) de la région Lilloise et des Hauts-de-France.
 
 Association sportive de loisir, nous pratiquons toutes les formes de slackline et accueillons tous les pratiquants indépendamment de leur niveau. Chaque année [nous organisons un festival](festival/).
 
@@ -32,9 +31,9 @@ Issue d'un regroupement de passionnés, nous organisons&nbsp;:
 
 ## Pourquoi adhérer à SlackLille&nbsp;?
 
-- **Apprendre et se perfectionner** au contact des autres membres 
-- **Profiter des sorties organisées par l'association** et du matériel mis en commun
-- **Être couvert par notre assurance** lors des sorties et évènements
+- **Apprendre et se perfectionner** au contact des autres membres.
+- **Profiter des sorties organisées par l'association** et du matériel mis en commun.
+- **Être couvert par notre assurance** lors des sorties et évènements.
 
 
 **Adhérez dès maintenant!**  
@@ -59,7 +58,7 @@ Depuis désormais 2 ans, Slacklille participe activement à l'organisation du "F
 - Facebook: https://www.facebook.com/groups/slacklille
 - Instagram: https://www.instagram.com/slack_lille/  
 
-## Partenaires et associations liées
+## Partenaires
 
 <Logos/>
 

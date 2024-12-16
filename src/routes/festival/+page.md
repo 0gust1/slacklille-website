@@ -27,8 +27,6 @@ author: SlackLille
 
 ## Éditions précédentes
 
-(❤️ & 🙏 à [Jonas Konijnenberg](https://www.youtube.com/@JonasKonijnenberg) pour les vidéos !)
-
 ### Édition 2024
 
 <YouTube  youTubeId="Nk5jtqpyA8c"/>
@@ -37,3 +35,4 @@ author: SlackLille
 
 <YouTube  youTubeId="Eom7nIciYLM"/>
 
+(❤️ & 🙏 à [Jonas Konijnenberg](https://www.youtube.com/@JonasKonijnenberg) pour les vidéos !)
