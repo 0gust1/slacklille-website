@@ -16,6 +16,6 @@
 
 <style lang="postcss">
   .content {
-    /* @apply bg-slackpink-500/50; */
+    @apply bg-white/30;
   }
 </style>

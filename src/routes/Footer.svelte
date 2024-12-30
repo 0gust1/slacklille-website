@@ -4,13 +4,13 @@
 	import InstagramIcon from '$lib/components/InstagramIcon.svelte';
 	import EmailIcon from '$lib/components/EmailIcon.svelte';
 	import slacklille_logo from '$lib/assets/Logo_SlackLille.svg';
+	import { getAllezLaaaa } from '$lib/uiState.svelte';
+	const allez_laaaa = getAllezLaaaa();
 </script>
 
 <footer>
 	<div class="footer-container">
-		<div
-			class="grid auto-cols-max grid-flow-col place-content-start gap-5 pt-12 xl:gap-8"
-		>
+		<div class="grid auto-cols-max grid-flow-col place-content-start gap-5 pt-12 xl:gap-8">
 			<div class="">
 				<img class=" w-40 pr-4" src={slacklille_logo} alt="SlackLille" />
 			</div>
@@ -32,6 +32,7 @@
 							>Identité Graphique</a
 						>
 					</li>
+					<li></li>
 				</ul>
 			</div>
 			<div class="grow-0">
@@ -53,22 +54,37 @@
 					<InstagramIcon class="size-10" />
 				</a>
 			</div>
-			<p class="mt-8 text-sm/6 text-gray-600 md:order-1 md:mt-0">
-				&copy; {new Date().getFullYear()} SlackLille
-			</p>
+			<div>
+				<p class="mt-8 text-sm/6 text-gray-600 md:order-1 md:mt-0">
+					&copy; {new Date().getFullYear()} SlackLille
+				</p>
+				<p>
+					<label class="text-2xs"
+						><input
+							type="checkbox"
+							id="toggle"
+							checked={allez_laaaa.allez_state}
+							onchange={(e) => {
+								e.preventDefault();
+								allez_laaaa.switchAllezLaaa();
+							}}
+						/> ALLEZ LÀÀÀÀÀ ! {allez_laaaa.allez_fx !== null ?`(fx: ${allez_laaaa.allez_fx+1})`:''}</label
+					>
+				</p>
+			</div>
 		</div>
 	</div>
 </footer>
 
 <style lang="postcss">
 	footer {
-		@apply bg-gradient-to-t from-slackblue-300 to-slackblue-100;
+		@apply bg-gradient-to-t from-slackblue-500/50 to-slackblue-300/50;
 		.footer-container {
 			@apply mx-auto max-w-7xl px-6 pb-8 lg:px-8;
 			/* @apply bg-white/50; */
 		}
 		a[href^='http'],
-		a[href^='mailto'], 
+		a[href^='mailto'],
 		a[href^='/'] {
 			&:hover {
 				@apply text-slackpink-600;

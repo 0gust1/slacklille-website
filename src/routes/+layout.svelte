@@ -7,7 +7,9 @@
 	import Header from './Header.svelte';
 	import Footer from './Footer.svelte';
 	import '../app.css';
-	
+	import Svader from '$lib/components/Svader.svelte';
+	import { getAllezLaaaa } from '$lib/uiState.svelte';
+
 	let { children } = $props();
 
 	beforeNavigate(({ willUnload, to }) => {
@@ -15,10 +17,17 @@
 			location.href = to.url.href;
 		}
 	});
+
+	const allez_laaaa = getAllezLaaaa();
 </script>
 
 <ParaglideJS {i18n}>
 	<div class="global-container">
+		{#if allez_laaaa.allez_state}
+			<div class="fixed left-0 top-0 -z-10 h-dvh w-full">
+				<Svader />
+			</div>
+		{/if}
 		<Header />
 		<main>
 			{@render children()}
@@ -32,6 +41,6 @@
 		/* @apply p-0; */
 	}
 	main {
-		/* @apply py-10 bg-slackgreen-200; */
+		/* @apply bg-slackgreen-200; */
 	}
 </style>

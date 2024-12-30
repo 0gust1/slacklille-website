@@ -9,7 +9,7 @@ import logoFCube from '$lib/assets/logo_fcube.png';
 import Logos from "./Logos.svelte";
 </script>
 
-<div class="lead bg-gradient-to-tl from-slackviolet-100 to-slackblue-100 px-4 md:px-8 pt-1 pb-2 rounded-md shadow-sm">
+<div class="lead bg-gradient-to-tl from-slackviolet-300/40 to-slackblue-300/50 px-4 md:px-8 pt-1 pb-2 rounded-md shadow-sm">
 <p class="text-2xl md:text-3xl font-light text-slackblue-800"> 
 SlackLille, l'association de slackline/highline &laquo;&nbsp;deu ch'nord&nbsp;&raquo;
 </p>
