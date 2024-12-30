@@ -7,9 +7,9 @@
 </script>
 
 <footer>
-	<div class="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
+	<div class="footer-container">
 		<div
-			class="grid auto-cols-max grid-flow-col place-content-start gap-5 border-t border-gray-900/10 pt-12 xl:gap-8"
+			class="grid auto-cols-max grid-flow-col place-content-start gap-5 pt-12 xl:gap-8"
 		>
 			<div class="">
 				<img class=" w-40 pr-4" src={slacklille_logo} alt="SlackLille" />
@@ -62,8 +62,11 @@
 
 <style lang="postcss">
 	footer {
-		@apply bg-slackblue-100;
-
+		@apply bg-gradient-to-t from-slackblue-300 to-slackblue-100;
+		.footer-container {
+			@apply mx-auto max-w-7xl px-6 pb-8 lg:px-8;
+			/* @apply bg-white/50; */
+		}
 		a[href^='http'],
 		a[href^='mailto'], 
 		a[href^='/'] {
