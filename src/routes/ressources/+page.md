@@ -45,7 +45,7 @@ import isaLogo from '$lib/assets/ISA-Logo-Long-300x52.png';
 		Les pratiquants lillois se regroupent souvent <a href="https://www.slackmap.com/?map=3.0393%2C50.64152%2C14.90218">au parc de la Citadelle</a>.
 		</p>
 		<a href="https://www.slackmap.com/?map=3.0504%2C50.63916%2C12.18821">
-			<img src="{slackmap_lille}" alt="photo de la citadelle de Lille"/>
+			<img src="{slackmap_lille}" alt="vue satellite de la citadelle de Lille"/>
 		</a>
 		<p>
 		(Prenez soin de respecter <a href="https://parcdelacitadelle.lille.fr/la-citadelle-lieu-de-sports/la-slackline-des-consignes-simples-pour-une-pratique-en-toute-securite">les consignes officielles</a> lors de vos sessions)

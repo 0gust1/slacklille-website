@@ -22,7 +22,7 @@ Color logo:
 
 ## Typography
 
-Two fonts are used in the SlackLille identity: Impact and a Gotham-like font (Metropolis).
+Two fonts are used in the SlackLille identity: **Impact** and a **Gotham-like font (Metropolis)**.
 
 Full example on an HTML document: [see this page](dummy)
 
