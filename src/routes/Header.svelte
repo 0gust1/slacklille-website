@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import FacebookIcon from '$lib/components/FacebookIcon.svelte';
 	import InstagramIcon from '$lib/components/InstagramIcon.svelte';
 	import EmailIcon from '$lib/components/EmailIcon.svelte';
@@ -12,7 +12,7 @@
 <header>
 	<nav
 		class="mx-auto flex max-w-7xl items-center justify-between px-6 pt-4 md:px-8"
-		aria-label="Global"
+		aria-label="Global navigation"
 	>
 		<div class="flex items-end gap-x-12">
 			<a href="{base}/" class="-m-1.5 p-1.5">
@@ -23,21 +23,21 @@
 				<li>
 					<a
 						href="{base}/"
-						class:active={$page.url.pathname === `${base}/`}
+						class:active={page.url.pathname === `${base}/`}
 						class="text-sm/6 font-semibold text-gray-900">Accueil</a
 					>
 				</li>
 				<li>
 					<a
 						href="{base}/festival"
-						class:active={$page.url.pathname === `${base}/festival`}
+						class:active={page.url.pathname === `${base}/festival`}
 						class="text-sm/6 font-semibold text-gray-900">Festival&nbsp;F<sup>3</sup></a
 					>
 				</li>
 				<li>
 					<a
 						href="{base}/ressources"
-						class:active={$page.url.pathname === `${base}/ressources`}
+						class:active={page.url.pathname === `${base}/ressources`}
 						class="text-sm/6 font-semibold text-gray-900">Ressources</a
 					>
 				</li>
@@ -126,7 +126,7 @@
 							<li>
 								<a
 									href="{base}/"
-									class:active={$page.url.pathname === `${base}/`}
+									class:active={page.url.pathname === `${base}/`}
 									class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 									onclick={() => {
 										menuOpen = !menuOpen;
@@ -136,7 +136,7 @@
 							<li>
 								<a
 									href="{base}/festival"
-									class:active={$page.url.pathname === `${base}/festival`}
+									class:active={page.url.pathname === `${base}/festival`}
 									class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 									onclick={() => {
 										menuOpen = !menuOpen;
@@ -146,7 +146,7 @@
 							<li>
 								<a
 									href="{base}/ressources"
-									class:active={$page.url.pathname === `${base}/ressources`}
+									class:active={page.url.pathname === `${base}/ressources`}
 									class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 									onclick={() => {
 										menuOpen = !menuOpen;
