@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
+	// import bg_slack_header from '$lib/assets/bg_slack_header.jpg';
 	import FacebookIcon from '$lib/components/FacebookIcon.svelte';
 	import InstagramIcon from '$lib/components/InstagramIcon.svelte';
 	import EmailIcon from '$lib/components/EmailIcon.svelte';
@@ -9,15 +10,17 @@
 	let menuOpen = $state(false);
 </script>
 
+<!-- <header style="background-image: url({bg_slack_header})"> -->
 <header>
+	<div class="header-container">
 	<nav
 		class="mx-auto flex max-w-7xl items-center justify-between px-6 pt-4 md:px-8"
 		aria-label="Global navigation"
 	>
 		<div class="flex items-end gap-x-12">
-			<a href="{base}/" class="-m-1.5 p-1.5">
+			<a href="{base}/" class="slacklille-logo">
 				<span class="sr-only">SlackLille</span>
-				<img src={slacklille_logo} alt="logo SlackLille" class="-mb-1 w-40" />
+				<img src={slacklille_logo} alt="logo SlackLille" class="" />
 			</a>
 			<ul class="internal-nav hidden md:flex md:gap-x-12">
 				<li>
@@ -179,11 +182,28 @@
 			</div>
 		</div>
 	{/if}
+</div>
 </header>
 
 <style lang="postcss">
 	header {
-		@apply bg-gradient-to-r from-gray-100 to-gray-500 shadow-sm;
+		@apply bg-cover bg-center bg-no-repeat;
+		/* background-image: url(bg_slack_header); */
+		@apply shadow;
+		nav {
+			/* @apply bg-slackbeige-50/50; */
+		}
+		.header-container{
+			@apply bg-gradient-to-r from-slackblue-300/70 to-slackbeige-300/70;
+		}
+		.slacklille-logo {
+			@apply -m-1.5 p-1.5;
+			@apply text-slackbeige-500;
+		}
+		.slacklille-logo img {
+			@apply -mb-1 w-40;
+			/* filter: invert(1); */
+		}
 		.active {
 			@apply text-slackblue-600;
 		}
