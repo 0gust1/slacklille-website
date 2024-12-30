@@ -2,7 +2,6 @@
 	import { beforeNavigate } from '$app/navigation';
 	import { updated } from '$app/state';
 	import { i18n } from '$lib/i18n';
-	import '@typehaus/metropolis';
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import Header from './Header.svelte';
 	import Footer from './Footer.svelte';
