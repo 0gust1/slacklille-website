@@ -10,6 +10,7 @@ author: SlackLille
 import slackmap_lille from '$lib/assets/slackmap-lille.jpg';
 import slackmap_nord from '$lib/assets/slackmap-nord.jpg';
 import isaLogo from '$lib/assets/ISA-Logo-Long-300x52.png';
+import afsLogo from '$lib/assets/bandeau_afs.png';
 </script>
 
 ## Débuter en slackline
@@ -75,5 +76,8 @@ L'ISA (International Slackline Association) est la fédération internationale d
 Leur site: [https://www.slacklineinternational.org/](https://www.slacklineinternational.org/) contient de nombreuses ressources pour les pratiquants, en différentes langues.
 
 ### En France
+<a href="https://www.facebook.com/AssociationFrancaiseSlackline/">
+<img class="w-60" src="{afsLogo}" alt="Logo de l'AFS"/>
+</a>
 
-En France, l'AFS (Association Française de Slackline) est la fédération nationale. Elle est membre de l'ISA et regroupe les associations locales et les pratiquants individuels.
+En France, [l'AFS (Association Française de Slackline)](https://www.facebook.com/AssociationFrancaiseSlackline/) est la fédération nationale. Elle est membre de l'ISA et regroupe les associations locales et les pratiquants individuels.
