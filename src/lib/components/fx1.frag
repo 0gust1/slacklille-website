@@ -112,7 +112,7 @@ vec4 plane(vec3 ro, vec3 rd, vec3 pp, vec3 npp, float pd, vec3 cp, vec3 off, flo
   float dd = dot(doff, ddoff);
   p2 *= ROT(dd*pi*5.);
 
-  float d0 = star5(p2, 0.45, 1.6,0.2)-0.02;
+  float d0 = star5(p2, 0.45, 1.5,0.0)-0.02;
   float d1 = d0-0.01;
   float d2 = length(p2);
   const float colp = pi*100.;
